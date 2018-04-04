@@ -35,7 +35,7 @@ Class Req's:
 Gameplay.
 ///////////////////////////
 
-1. Players: 1. bike hipster (high attack). 2. music hipster (archer type).  3. web dev hipster (wizard)
+1. Players: 1. bike hipster (high attack). 2. music hipster (archer type).  3. freelancer hipster (wizard) 4. hippie coop granola
 
 2. Player object attributes: Starting HP, Current HP, base attack power, current attack power, counter attack power, custom sound, custom image, custom attack name, isEnemy (bool), isCurrentEnemy(bool);
 
