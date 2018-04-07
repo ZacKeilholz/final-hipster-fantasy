@@ -17,3 +17,7 @@ Additionally,
 
 [if you would like to see the pseudocode that I originally wrote and followed while writing this game, please see my gamePseudocode.js file.](assets/javascript/gamePseudocode.js)  
 
+Annnd Lastly,
+
+[I highly recommend you check out my original concept doodle for the project.](assets/images/conceptDoodle2.png)  It's amazing how much ideation one can do with a simple paint program.  
+
