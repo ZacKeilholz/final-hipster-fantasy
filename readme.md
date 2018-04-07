@@ -1,4 +1,4 @@
-Final Hipster Fantasy 3 is a modern-day play on hipster culture that utilizes HTML, Bootstrap 4, a slight sprinkle of custom CSS and a fair amount of JQuery.  It also features a massive amount of soundbites from the original SNES Final Fantasy series (plz don't sue me). 
+Hipster Fantasy 3 is a modern-day play on hipster culture that utilizes HTML, Bootstrap 4, a slight sprinkle of custom CSS and a fair amount of JQuery.  It also features a massive amount of soundbites from the original SNES Final Fantasy series (plz don't sue me). 
 
 The game takes place in a coffee shop- a place where all hipsters frequent, and the players featured in this battle are (in no particular order):
 
