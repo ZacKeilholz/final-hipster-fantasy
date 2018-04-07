@@ -39,8 +39,8 @@
             background-color: black !important;
         }
 
-        a:hover {
-            text-decoration: none;
+        a:hover{
+            text-decoration:none;
         }
     </style>
 
@@ -82,7 +82,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-2" id="dialogue-container">
+                <div class="col-md-2">
                     <!--Text Dialogue Container-->
                     <div class="card bg-dark">
                         <div class="card-body">
@@ -94,12 +94,12 @@
 
                 </div>
 
-                <div class="col-md" id="main-opponent-container">
+                <div class="col-md">
 
                     <!--Opponent Container-->
                     <div class="card bg-danger" id="opponent-container">
                         <div class="card-body">
-                            <h5 class="card-title"></h5>
+                            <h5 class="card-title">Opponent Container</h5>
                         </div>
                     </div>
 
@@ -135,10 +135,6 @@
                                 <p class="card-text">
                                     <small class="attack" id="sonic-attack">ATK: 10</small>
                                 </p>
-                                <br>
-                                <div class="progress">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
                             </div>
                         </div>
 
@@ -153,12 +149,7 @@
                                 <p class="card-text">
                                     <small class=" attack" id="cyclo-attack">ATK: 15</small>
                                 </p>
-                                <br>
-                                <div class="progress">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
                             </div>
-
                         </div>
 
                         <!--Character Psychic-->
@@ -174,10 +165,6 @@
                                 <p class="card-text">
                                     <small class="attack" id="psychic-attack">ATK: 25</small>
                                 </p>
-                                <br>
-                                <div class="progress">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
                             </div>
                         </div>
 
@@ -185,9 +172,7 @@
                         <div class="card character bg-dark text-light" id="4">
                             <img class="card-img-top" src="assets/images/freelancer-hipster.jpg" alt="Card image cap">
                             <div class="card-body">
-                               
                                 <h5 class="card-title">Wiz</h5>
-
                                 <p class="card-text">
                                     <small class="health" id="wiz-health">HP: 160 </small>
                                 </p>
@@ -195,10 +180,6 @@
                                 <p class="card-text">
                                     <small class="attack" id="wiz-attack">ATK: 20</small>
                                 </p>
-                                <br>
-                                <div class="progress">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -211,20 +192,18 @@
         <br>
         <!--Sticky Footer -->
         <footer class="container-fluid bg-secondary" id="footer-container">
-            <div class="row ">
+            <div class="row">
                 <div class="col-auto mr-auto">
-                    <p class="text-center pt-3 " id="footer-text">
+                    <p class="text-center pt-3 mb-1" id="footer-text">
                         <small class="text-danger">Copyright &copy2018</small>
                     </p>
                 </div>
                 <div class="col-auto">
-                    <button type="button" class="btn btn-secondary border border-dark mt-2 mb-1 rounded-0">
+                    <button type="button" class="btn btn-secondary border border-dark mt-2">
                         <h3 class="text-danger pt-1" id="power-button">POWER</h3>
                     </button>
-                    <button type="button" class="btn btn-secondary border border-dark mt-2 mb-1 rounded-0">
-                        <a href="index.html">
-                            <h3 class="text-danger pt-1" id="reset-button">RESET</h3>
-                        </a>
+                    <button type="button" class="btn btn-secondary border border-dark mt-2">
+                       <a href="index.html"><h3 class="text-danger pt-1" id="reset-button">RESET</h3></a>   
                     </button>
                 </div>
             </div>
