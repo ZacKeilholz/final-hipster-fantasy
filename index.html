@@ -27,7 +27,7 @@
             position: fixed;
             left: 0;
             bottom: 0;
-            height: 50px;
+            height: 70px;
             width: 100%;
         }
 
@@ -38,9 +38,13 @@
         .bg-dark {
             background-color: black !important;
         }
+
+        a:hover{
+            text-decoration:none;
+        }
     </style>
 
-    <title>Hipster Fantasy 7</title>
+    <title>Hipster Fantasy III</title>
 </head>
 
 <body>
@@ -48,128 +52,167 @@
     <nav class="navbar navbar-dark bg-dark ">
         <div class="container col-12 col-xs-12">
             <a class="navbar-brand text-white text-center text-uppercase mx-auto pt-3" href="index.html">
-                <h2 class="border border-white pl-1 pr-1 pb-1 pt-1">Hipster Fantasy 7</h2>
+                <h2 class="border border-white pl-1 pr-1 pb-1 pt-1">Hipster Fantasy III</h2>
             </a>
         </div>
     </nav>
     <br>
-    <br>
-    <br>
 
     <!--Content-->
     <div class="container">
+        <div class="container-fluid">
 
-        <!--PvP Main Container-->
-        <div class="row">
-
-            <!--Player Container-->
-            <div class="col-4 bg-success">
-                <p>Player Test Box</p>
+            <!--PvP Main Container-->
+            <div class="col-md-12 bg-primary text-light border border-white rounded">
+                <h2 id="blue-text">Choose a hero!</h2>
             </div>
+            <br>
 
-            <!--Text Dialogue Container-->
-            <div class="col-4 bg-dark text-light">
-                <p>Text Dialogue Box</p>
+            <div class="row" id="action-container">
+
+                <div class=" col-md">
+
+                    <!--Responsive Character Cards Container -  this should expand/shrink depending on how many card are here... potentially populate this via fridge game method-->
+
+                    <!--Player Container-->
+                    <div class="card bg-success" id="player-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Player Container</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <!--Text Dialogue Container-->
+                    <div class="card bg-dark">
+                        <div class="card-body">
+                            <div id="vs-container">
+                                <h5 class="card-title text-center text-light" id="vs-text">VS</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md">
+
+                    <!--Opponent Container-->
+                    <div class="card bg-danger" id="opponent-container">
+                        <div class="card-body">
+                            <h5 class="card-title">Opponent Container</h5>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-group" id="enemies-container">
+
+                </div>
+
             </div>
-
-            <!--Opponent Container-->
-            <div class="col-4 bg-danger">
-                <p>Opponent Test Box</p>
-            </div>
-
         </div>
 
-        <br>
-        <br>
-        <br>
-
         <div class="row">
+            <div class="col-md-12">
 
 
-            <!--Dugout Containing All Characters at gamestart and surviving/remaining defenders during gameplay-->
-            <div class=" col-md-12">
+                <!--Dugout Containing All Characters at gamestart and surviving/remaining defenders during gameplay-->
+                <div class="col-md-12">
 
-                <!--Responsive Character Cards Container -  this should expand/shrink depending on how many card are here... potentially populate this via fridge game method-->
-                <div class="card-group">
+                    <!--Responsive Character Cards Container -  this should expand/shrink depending on how many card are here... potentially populate this via fridge game method-->
+                    <div class="card-group mb-2" id="character-dugout">
 
-                    <!--Character A-->
-                    <div class="card" val="a">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Player A</h5>
+                        <!--Character Sonic-->
+                        <div class="card character bg-dark text-light" id="1">
+                            <img class="card-img-top" src="assets/images/music-hipster.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Sonic</h5>
 
-                            <p class="card-text">
-                                <small class="text-muted">HP:</small>
-                            </p>
-                            <p class="card-text">
-                                <small class="text-muted">ATK:</small>
-                            </p>
-                        </div>
-                    </div>
-
-                    <!--Character B-->
-                    <div class="card" val="b">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Player B</h5>
-                            <p class="card-text">
-                                <small class="text-muted">HP:</small>
-                            </p>
-                            <p class="card-text">
-                                    <small class="text-muted">ATK:</small>
+                                <p class="card-text">
+                                    <small class="health" id="sonic-health">HP: 190</small>
                                 </p>
-                        </div>
-                    </div>
-
-                    <!--Character C-->
-                    <div class="card" val="c">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Player C</h5>
-
-                            <p class="card-text">
-                                <small class="text-muted">HP:</small>
-                            </p>
-
-                            <p class="card-text">
-                                    <small class="text-muted">ATK:</small>
+                                <p class="card-text">
+                                    <small class="attack" id="sonic-attack">ATK: 10</small>
                                 </p>
+                            </div>
                         </div>
-                    </div>
 
-                    <!--Character D-->
-                    <div class="card" val="d">
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Player D</h5>
-                            <p class="card-text">
-                                <small class="text-muted">HP:</small>
-                            </p>
-
-                            <p class="card-text">
-                                    <small class="text-muted">ATK:</small>
+                        <!--Character Cyclo-->
+                        <div class="card character bg-dark text-light" id="2">
+                            <img class="card-img-top " value="b" src="assets/images/hipster-girl-bike.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Cyclo</h5>
+                                <p class="card-text">
+                                    <small class=" health" id="cyclo-health">HP: 180</small>
                                 </p>
+                                <p class="card-text">
+                                    <small class=" attack" id="cyclo-attack">ATK: 15</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Character Psychic-->
+                        <div class="card character bg-dark text-light" id="3">
+                            <img class="card-img-top" src="assets/images/psychic-hipster.jpg" alt="Card image cap">
+                            <div class="card-body container">
+                                <h5 class="card-title"> Psychic</h5>
+
+                                <p class="card-text">
+                                    <small class=" health" id="psychic-health">HP: 150</small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="attack" id="psychic-attack">ATK: 25</small>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!--Character Wiz-->
+                        <div class="card character bg-dark text-light" id="4">
+                            <img class="card-img-top" src="assets/images/freelancer-hipster.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Wiz</h5>
+                                <p class="card-text">
+                                    <small class="health" id="wiz-health">HP: 160 </small>
+                                </p>
+
+                                <p class="card-text">
+                                    <small class="attack" id="wiz-attack">ATK: 20</small>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <br>
+        <br>
+        <br>
+        <br>
         <!--Sticky Footer -->
         <footer class="container-fluid bg-secondary" id="footer-container">
             <div class="row">
-                <div class="col-lg-12">
-                    <p class="text-center pt-2 mb-1" id="footer-text">
-                        <small class="text-white">Copyright &copy2018</small>
+                <div class="col-auto mr-auto">
+                    <p class="text-center pt-3 mb-1" id="footer-text">
+                        <small class="text-danger">Copyright &copy2018</small>
                     </p>
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-secondary border border-dark mt-2">
+                        <h3 class="text-danger pt-1" id="power-button">POWER</h3>
+                    </button>
+                    <button type="button" class="btn btn-secondary border border-dark mt-2">
+                       <a href="index.html"><h3 class="text-danger pt-1" id="reset-button">RESET</h3></a>   
+                    </button>
                 </div>
             </div>
 
         </footer>
 
         <!--Bootstrap JS and Jquery -->
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
             crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -186,7 +229,7 @@
 
 
         <!-- Link to my JS-->
-        <script src="assets/game.js"></script>
+        <script src="assets/javascript/game.js"></script>
 
 </body>
 

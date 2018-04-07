@@ -59,3 +59,4 @@ e. Opponent dies- if opponent dies, we go back to 'pick defender mode'.  defende
 f. Game Won-  opponents are all dead.  if there are no more opponents, game is won (not sure what happens at this point..... maybe a sound).  we then go to pre-game reset.  
 
 */
+    
